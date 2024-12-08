@@ -1,0 +1,39 @@
+* {
+    font-family: Arial;
+}
+/* Aturan Terakhir (Last Rule) */
+
+i{
+    color: blue;
+}
+i{
+    color: blueviolet; /* ini yang di ambil*/
+}
+
+/* Specific */
+
+b{
+    color: pink;
+}
+p b{
+
+    color: darkred !important;
+    /* Ini tidak bisa di ganti dengan selector setelahnya */
+}
+p>b{
+    color: goldenrod ;
+}
+
+/* Studi Kasus */
+
+p{
+    font-size: 100%;
+}
+
+p b{
+    font-size: 150%; /* lebih spesifik */
+}
+
+p#pendahuluan{
+    font-size: 75%; /* lebih spesifik */
+}

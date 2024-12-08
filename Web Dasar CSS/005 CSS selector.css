@@ -1,0 +1,49 @@
+
+/* 1. Universal Selector */
+*{
+    font-family: Arial;
+}
+
+/* 2. Type Selector */
+
+h1{
+    color: chocolate;
+}
+h2{
+    color: darkblue;
+}
+
+/* 3. Class Selector */
+li.sarapan{
+    color: darkgoldenrod;
+}
+
+/* 4. Id Selector */
+#Maksi_Senin{
+    color: darkgreen;
+}
+
+/* 5. Child Selector */
+/* p>b --> maksudnya b ada di dalam p */
+p>b{ 
+    color: darkorange;
+}
+li>b{
+    color: darkslateblue;
+}
+
+/* 6. Decendant Selector */
+
+i b{
+    color: brown;
+}
+
+/* 7. Adjacent Sibling Selector */
+p+h2{
+    color: blueviolet;
+}
+
+/* 8. General Sibling Selector */
+h2~p{
+    color: aqua;
+}

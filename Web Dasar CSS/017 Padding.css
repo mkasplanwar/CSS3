@@ -1,0 +1,39 @@
+*{
+    font-family: verdana;
+
+}
+h1{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.border{
+    border: 1px solid;
+}
+.padding-1{
+    background-color: aquamarine;
+    padding: 40px;
+}
+.padding-2{
+    background-color:bisque;
+    padding: 20px 50px;
+}
+.padding-3{
+    background-color:aqua;
+    /* atas, kiri - kanan, bawah */
+    padding: 5px 20px 50px;
+}
+.padding-4{
+    background-color:lightyellow;
+    /* atas, kanan, bawah, kiri */
+    padding: 5px 10px 20px 50px;
+}
+
+/* 
+
+    tambahan padding
+
+        padding block
+
+        padding inline
+*/

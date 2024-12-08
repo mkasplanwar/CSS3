@@ -1,0 +1,45 @@
+h1{
+    font-family: georgia;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+    text-shadow: 10px 5px 10px black;
+    word-spacing: 0.5cm;
+    letter-spacing: 5px;
+}
+
+.credit{
+
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tautan{
+
+    font-family: arial;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a.tautan:hover{/*saat kursor*/
+    color: cadetblue;
+}
+a.tautan.active{/*saat ditekan*/
+    color: pink;
+}
+a.tautan:visited{/*saat sdh dikunjungi*/
+    color: black;
+}
+
+p.intro{
+    font-family: 'segoe UI';
+    font-size: 13px;
+    text-align: justify;
+}

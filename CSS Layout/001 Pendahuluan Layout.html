@@ -1,0 +1,39 @@
+<!-- 
+
+    position
+
+        1. static -> yang normal, mengikuti format sebelumnya -> Normal Flow, Mengikuti urutan HTML
+
+        2. Relative -> Posisi awal relativ adalah static, setelah ditambahkan selector posisi akan berubah mengikuti value pada selector. (Nilai Relative Dari Posisi Awal).
+
+        contohnya
+
+        {
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+
+        3. Absolute -> Awalnya Adalah Static, saat ditambahkan selector maka posisi original nya akan menghilang. (bertumpuk dengan posisi item yang di bawah). (posisi absolue tidak mengikuti posisi awal, tapi mengikuti posisi Browser).(Posisi Original menghilang)
+
+        {
+            position : absolute;
+            left: 50px;
+            top: 100px;
+
+        }
+
+        4. Fixed -> mirip dengan absolute, bedanya saat scroll posisi akan tetap. biasanya di gunakan untuk navbar pada browser.
+
+        contohnya 
+
+        {
+            position : fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+
+        }
+
+        5. Sticky -> campuran antara static dan fixed. akan menjadi fixed ketika di scroll   
+ -->

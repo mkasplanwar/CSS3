@@ -1,0 +1,56 @@
+body{
+    width: 960px;
+    margin: 0px auto;
+    font-family: arial;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.nav li{
+    
+    display: inline;
+    padding: 5px;
+}
+
+#highlight{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+#highlight img{
+    width: 20%;
+    
+}
+
+.artikel{
+    float: left;
+    background-color: antiquewhite;
+    /* 960/3 -40 */
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content{
+    height: 100%;
+    overflow: auto;
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 10px;
+}

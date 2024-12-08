@@ -1,0 +1,25 @@
+/* 
+
+    CSS --> Cascading Style Sheet 
+
+    - inline css
+    - internal css
+    - eksternal css
+
+    contoh struktur css
+
+    <style>
+        h1 {
+            font-size: 30px;
+            color: green;
+        }
+    </style>
+
+    itu namanya css selector
+
+    selectornya ---> h1
+    deklarasinta ---> font-size: 30px;
+    property --> font-size
+    value ---> 30px
+*/
+

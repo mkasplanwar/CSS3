@@ -1,0 +1,19 @@
+body{
+    font-family: arial;
+}
+
+.header{
+    position: fixed;
+    background-color: coral;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* Semakin Besar Nilai z indexnya maka semakin di atas */
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    z-index: 0;
+}

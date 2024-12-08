@@ -1,0 +1,36 @@
+/* 
+komponen komponen yang ada oada box
+
+heigh --> tinggi
+width --> lebar
+
+border --> pembatas
+padding --> area kosong jarak antara konten dan border
+
+margin --> batas terluar antara bosrder dan objek
+
+
+*/
+
+*{
+    font-family: arial;
+}
+.content{
+
+    font-size: 36px;
+    background-color: bisque;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 20px solid red;
+    padding: 10px;
+    margin: 407   px;
+
+}
+
+.container{
+    background-color: aquamarine;
+    width: 240px;
+    height: 180px;
+    border: 2px solid red;
+}

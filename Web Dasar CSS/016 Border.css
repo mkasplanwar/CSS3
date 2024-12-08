@@ -1,0 +1,61 @@
+*{
+    font-family: arial;
+}
+.border-1{
+    border: 2px solid brown;
+    border-bottom-width: 4px;
+}
+#atas-solid{
+    border-top-style: solid;
+    border-top-width: 4px ;
+}
+#kiri-solid{
+
+    border-color: blueviolet;
+    border-left-width: 4px;
+    border-left-style: solid;
+    
+}
+#bawah-dotted{
+    border-color: cadetblue;
+    border-bottom-style: dotted;
+    border-bottom-width: 4px;
+}
+#kiri-double{
+
+    border-color: goldenrod;
+    border-left-style: double;
+    border-left-width: 4px;
+
+}
+#kanan-dashed{
+
+    border-color: goldenrod;
+    border-bottom-style:dashed;
+    border-bottom-width: 4px;
+
+}
+.border-2{
+
+    border-color: darkgreen;
+    border-style: solid;
+    /* untuk Seluruhnya*/
+    border-width: 20px;
+}
+
+.border-3{
+
+    border-color: darkgreen;
+    border-style: solid;
+    /* untuk atas - bawah dan kiri-kanan */
+    border-width: 20px 5px;
+}
+.border-4{
+
+    border-color: darkgreen;
+    border-style: solid;
+    /* untuk atas, kanan, bawah, kiri */
+    border-width: 5px 10px 15px 20px;
+}
+
+
